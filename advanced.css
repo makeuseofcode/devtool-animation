@@ -7,7 +7,7 @@
 }
 
 .move-me-1 {
-    animation: move-in-steps 8s steps(4) infinite;
+    animation: move-in-steps 8s steps(4, end) infinite;
 }
 
 .move-me-2 {
