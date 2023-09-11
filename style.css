@@ -1,0 +1,52 @@
+#box {
+    background: red;
+    height: 400px;
+    width: 400px;
+    margin-bottom: 1rem;
+    animation: rotateAndChangeColor 1000ms ease-in-out;    
+}
+
+button {
+    font-size: larger;
+}
+
+@keyframes rotateAndChangeColor {
+    0% {
+        rotate: 0deg;
+        background: red;
+    }
+
+    10% {
+        background: green;
+    }
+
+    40% {
+        background: blue;
+    }
+
+    70% {
+        background: yellow;
+    }
+
+    100% {
+        rotate: 360deg;
+        background: red;
+    }
+}
+
+button {
+    background-color: white;
+    border: 1px solid black;
+    padding: 0.5em 1em;
+    color: black;
+    height: 80px;
+    width: 300px;
+    border-radius: 0.5em;
+    transition: background-color 100ms ease-in-out, color 100ms ease-in-out;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
